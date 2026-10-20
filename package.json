@@ -1,0 +1,7 @@
+{
+  "name": "pdf-autofill-proxy",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": { "start": "node server.js" }
+}

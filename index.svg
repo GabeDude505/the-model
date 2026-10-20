@@ -1,0 +1,833 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     viewBox="0 0 1000 750" width="100%" height="100%" preserveAspectRatio="xMidYMid meet"
+     font-family="system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTplODEyMzk5ZC0xNmU0LTQwNzQtOGU4Mi1kMTk0NTE1NGMxM2EAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaOOmRiDeUKig+C62Ls/we4QAAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDplODBhZDIyMy0wNmYzLTQwZTItYWFmNy1hZjRjNmRmZDQ1MDdscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNolhJZmjLyyrG34MM1ecIiiwAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFgg8wHXApMDT0gr36veHJ2q5K4djyajPWWqrRVNgdCtWcKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaMqVC/uJn2p+UgUUXJ3lyNMAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIDmo2S+djTnzOpMwuYAY4mLk/frhlvukXKZSElr3oQvwZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GQFyZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOmU4MTIzOTlkLTE2ZTQtNDA3NC04ZTgyLWQxOTQ1MTU0YzEzYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjBjNWQ4MmE4LWYxMWYtNGIwMC1hMTVmLWIxMzFkZDc3YTg2M3JjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCDzAdcCkwNPSCvfq94cnarkrh2PJqM9ZaqtFU2B0K1ZwqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggDoDN3VzlWE/EiTwruZl6cYbM6ymC7NyfPEJXqsdH2GKiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFggf9ZRSAWSETRJEiXlQmkCNUYQXXPzJAXzrhWKAr6F5Mh0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQBkQ1W2DhdzA2ShtZwGq0ifxyuRbZ6Y4Ec6lh9ztRdZ+zNLWCQTw7ukeCBgD0BZCY1KuxGX3c7GHFGNOPhB9R9Y=</c2pa:manifest></metadata>
+  <title>Fill a PDF from your documents</title>
+  <defs id="defs">
+    <style>
+      .zone { fill: #FFFFFF; stroke: #AEBBC6; stroke-width: 2; stroke-dasharray: 8 6; cursor: pointer; }
+      .zone.hover { fill: #D7ECEC; stroke: #0E6F73; }
+      .zone:focus { outline: none; stroke: #0E6F73; stroke-width: 3; }
+      .btn { cursor: pointer; outline: none; }
+      .btn rect { fill: #0E6F73; }
+      .btn:hover rect, .btn:focus rect { fill: #0A5659; }
+      .btn.secondary rect { fill: #17212B; }
+      .btn.toggle rect { fill: #FFFFFF; stroke: #AEBBC6; stroke-width: 1.5; }
+      .btn.toggle text { fill: #17212B; }
+      .btn.toggle.active rect { fill: #17212B; stroke: #17212B; }
+      .btn.toggle.active text { fill: #FFFFFF; }
+      .btn.disabled { opacity: 0.4; cursor: not-allowed; }
+      .btn text { fill: #FFFFFF; font-weight: 600; font-size: 17px; pointer-events: none; }
+      .btn.toggle text { font-size: 14px; }
+      .ink { fill: #17212B; } .muted { fill: #5B6875; }
+    </style>
+  </defs>
+
+  <!-- Background and header -->
+  <rect x="0" y="0" width="1000" height="750" fill="#E8EDF1"/>
+  <text x="40" y="56" class="ink" font-size="26" font-weight="700">Fill a PDF from your documents</text>
+  <text x="40" y="82" class="muted" font-size="14">Files are read in this page. If you connect a proxy, only the extracted content is sent to it.</text>
+
+  <!-- Step 1: source files -->
+  <text x="40" y="122" class="ink" font-size="16" font-weight="600">1. Add source documents</text>
+  <rect id="source-zone" class="zone" x="40" y="134" width="440" height="214" rx="12"
+        tabindex="0" role="button" aria-label="Add source documents"/>
+  <text x="260" y="176" class="ink" font-size="18" font-weight="600" text-anchor="middle" pointer-events="none">Drop source files here, or click</text>
+  <text x="260" y="198" class="muted" font-size="13" text-anchor="middle" pointer-events="none">PDF, TXT, PNG or JPEG, up to 20 MB each</text>
+  <g id="source-list" font-size="13" class="ink" pointer-events="none"></g>
+  <g id="btn-source-text" class="btn toggle" tabindex="0" role="button" transform="translate(64 304)">
+    <rect width="200" height="34" rx="8"/><text x="100" y="22" text-anchor="middle">Paste text instead</text>
+  </g>
+  <g id="btn-source-clear" class="btn toggle" tabindex="0" role="button" transform="translate(276 304)">
+    <rect width="180" height="34" rx="8"/><text x="90" y="22" text-anchor="middle">Clear sources</text>
+  </g>
+
+  <!-- Step 2: template PDF -->
+  <text x="520" y="122" class="ink" font-size="16" font-weight="600">2. Choose the PDF to fill</text>
+  <rect id="template-zone" class="zone" x="520" y="134" width="440" height="214" rx="12"
+        tabindex="0" role="button" aria-label="Choose the template PDF"/>
+  <text x="740" y="176" class="ink" font-size="18" font-weight="600" text-anchor="middle" pointer-events="none">Drop the template PDF here, or click</text>
+  <text x="740" y="198" class="muted" font-size="13" text-anchor="middle" pointer-events="none">A PDF with or without form fields, or paste a schema</text>
+  <g id="template-info" font-size="13" class="ink" pointer-events="none"></g>
+  <g id="btn-template-text" class="btn toggle" tabindex="0" role="button" transform="translate(544 304)">
+    <rect width="200" height="34" rx="8"/><text x="100" y="22" text-anchor="middle">Paste schema instead</text>
+  </g>
+  <g id="btn-template-clear" class="btn toggle" tabindex="0" role="button" transform="translate(756 304)">
+    <rect width="180" height="34" rx="8"/><text x="90" y="22" text-anchor="middle">Clear template</text>
+  </g>
+
+  <!-- Fill method toggle -->
+  <g id="btn-mode-fields" class="btn toggle" tabindex="0" role="button" transform="translate(520 364)">
+    <rect width="215" height="36" rx="8"/><text x="107.5" y="23" text-anchor="middle">Interactive fields</text>
+  </g>
+  <g id="btn-mode-coords" class="btn toggle" tabindex="0" role="button" transform="translate(745 364)">
+    <rect width="215" height="36" rx="8"/><text x="107.5" y="23" text-anchor="middle">Pixel coordinates</text>
+  </g>
+
+  <!-- Step 3: run -->
+  <text x="40" y="392" class="ink" font-size="16" font-weight="600">3. Extract and fill</text>
+  <g id="btn-process" class="btn disabled" tabindex="0" role="button" transform="translate(40 406)">
+    <rect width="250" height="56" rx="10"/><text x="125" y="35" text-anchor="middle">Extract and fill PDF</text>
+  </g>
+  <g id="btn-download" class="btn secondary" tabindex="0" role="button" transform="translate(310 406)" visibility="hidden">
+    <rect width="250" height="56" rx="10"/><text x="125" y="35" text-anchor="middle">Download filled PDF</text>
+  </g>
+  <g id="btn-exact" class="btn toggle active" tabindex="0" role="switch" aria-checked="true" transform="translate(580 416)">
+    <rect width="380" height="36" rx="8"/><text x="190" y="23" text-anchor="middle">Exact extraction: on</text>
+  </g>
+  <text id="text-status" x="40" y="498" class="muted" font-size="14">Loading PDF libraries...</text>
+
+  <!-- Result preview -->
+  <rect x="40" y="522" width="920" height="200" rx="12" fill="#FFFFFF" stroke="#C9D3DB"/>
+  <text x="60" y="552" class="ink" font-size="15" font-weight="600">Values written to the PDF</text>
+  <g id="result-preview" font-size="13" class="ink"></g>
+
+  <!-- Text entry editor: a modal whose multi-line textarea is spawned by script inside a foreignObject -->
+  <g id="editor" visibility="hidden">
+    <rect x="0" y="0" width="1000" height="750" fill="#17212B" opacity="0.55"/>
+    <rect x="90" y="70" width="820" height="610" rx="14" fill="#FFFFFF"/>
+    <text id="editor-title" x="120" y="112" class="ink" font-size="20" font-weight="700"></text>
+    <text id="editor-hint" x="120" y="136" class="muted" font-size="13"></text>
+    <text id="editor-hint2" x="120" y="154" class="muted" font-size="13"></text>
+    <g id="editor-host"></g>
+    <text id="editor-error" x="120" y="614" fill="#B3261E" font-size="13"></text>
+    <g id="btn-editor-apply" class="btn" tabindex="0" role="button" transform="translate(120 626)">
+      <rect width="150" height="40" rx="8"/><text x="75" y="26" text-anchor="middle">Apply</text>
+    </g>
+    <g id="btn-editor-cancel" class="btn toggle" tabindex="0" role="button" transform="translate(282 626)">
+      <rect width="130" height="40" rx="8"/><text x="65" y="26" text-anchor="middle">Cancel</text>
+    </g>
+    <g id="btn-editor-prompt" class="btn toggle" tabindex="0" role="button" transform="translate(424 626)">
+      <rect width="190" height="40" rx="8"/><text x="95" y="26" text-anchor="middle">Use simple prompt</text>
+    </g>
+    <text id="editor-count" x="880" y="651" class="muted" font-size="13" text-anchor="end"></text>
+  </g>
+
+  <script type="text/javascript"><![CDATA[
+(function () {
+  'use strict';
+
+  /* ------------------------------------------------------------------ */
+  /* Config                                                             */
+  /* ------------------------------------------------------------------ */
+  var SVG_NS = 'http://www.w3.org/2000/svg';
+  var XLINK_NS = 'http://www.w3.org/1999/xlink';
+  var XHTML_NS = 'http://www.w3.org/1999/xhtml';
+  var PDFJS_VERSION = '3.11.174'; // last pdf.js line that ships a classic (non-ESM) bundle
+  var PDFLIB_URL = 'https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js';
+  var PDFJS_URL = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@' + PDFJS_VERSION + '/build/pdf.min.js';
+  var PDFJS_WORKER_URL = 'https://cdn.jsdelivr.net/npm/pdfjs-dist@' + PDFJS_VERSION + '/build/pdf.worker.min.js';
+  var MAX_BYTES = 20 * 1024 * 1024;
+  var MAX_TEXT_CHARS = 400000; // matches the proxy's per-source text limit
+
+  var CONFIG = {
+    // Your proxy endpoint (see proxy/server.js or proxy/edge-route.js), e.g. 'https://your-host.example.com/api/extract'.
+    // Leave empty to run the offline heuristic mock instead.
+    PROXY_URL: '',
+    // true  = "Exact Information Extraction": the model must copy source text verbatim, with no paraphrasing,
+    //         summarizing or editing. The proxy enforces this in the system prompt and audits the result.
+    // false = the model may condense text to fit a field. Also switchable in the page (button below the Download button).
+    EXACT_EXTRACTION: true,
+    // A PDF averaging fewer extracted characters per page than this is treated as scanned and sent as a file for vision.
+    SCANNED_PDF_CHARS_PER_PAGE: 25,
+    REQUEST_TIMEOUT_MS: 120000
+  };
+
+  // Boxes used in "Pixel coordinates" mode. Units are PDF points measured from the TOP-LEFT of the page.
+  var REGIONS = [
+    { id: 'fullName', label: 'Full name', page: 1, x: 72, y: 120, width: 300, height: 20, fontSize: 12 },
+    { id: 'summary', label: 'Summary', page: 1, x: 72, y: 170, width: 460, height: 140, fontSize: 11 }
+  ];
+
+  var state = { sources: [], template: null, formFields: [], mode: 'fields', exact: CONFIG.EXACT_EXTRACTION,
+                sourceText: '', schemaText: '', schema: null,
+                libsReady: false, busy: false, resultBlob: null, resultName: 'filled.pdf' };
+
+  function $(id) { return document.getElementById(id); }
+
+  /* ------------------------------------------------------------------ */
+  /* 1. Dynamic CDN module loading                                      */
+  /* ------------------------------------------------------------------ */
+  // <script src> in HTML is not available here, so we create SVG-namespace <script>
+  // elements with an href and append them to <defs>. The Promise settles on load/error.
+  function loadScript(url) {
+    return new Promise(function (resolve, reject) {
+      var s = document.createElementNS(SVG_NS, 'script');
+      s.setAttribute('type', 'text/javascript');
+      s.setAttribute('href', url);                       // SVG 2
+      s.setAttributeNS(XLINK_NS, 'xlink:href', url);     // SVG 1.1 fallback
+      s.addEventListener('load', function () { resolve(url); });
+      s.addEventListener('error', function () { reject(new Error('Could not load ' + url)); });
+      $('defs').appendChild(s);
+    });
+  }
+
+  function loadLibraries() {
+    return Promise.all([loadScript(PDFLIB_URL), loadScript(PDFJS_URL)]).then(function () {
+      if (!window.PDFLib || !window.pdfjsLib) throw new Error('Libraries loaded but globals are missing');
+      // Worker isolation: pdf.js wraps a cross-origin workerSrc in a same-origin Blob that
+      // importScripts() the CDN file, so a cdn.jsdelivr.net worker is allowed from any host page.
+      window.pdfjsLib.GlobalWorkerOptions.workerSrc = PDFJS_WORKER_URL;
+      state.libsReady = true;
+    });
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 2. Local file ingestion (no network)                               */
+  /* ------------------------------------------------------------------ */
+  function readAsArrayBuffer(file) {
+    return new Promise(function (resolve, reject) {
+      var r = new FileReader();
+      r.onload = function () { resolve(r.result); };
+      r.onerror = function () { reject(new Error('Could not read ' + file.name)); };
+      r.readAsArrayBuffer(file);
+    });
+  }
+
+  function fileKind(file) {
+    var n = file.name.toLowerCase();
+    if (/\.pdf$/.test(n) || file.type === 'application/pdf') return 'pdf';
+    if (/\.(png|jpe?g)$/.test(n) || /^image\/(png|jpeg)$/.test(file.type)) return 'image';
+    if (/\.txt$/.test(n) || file.type === 'text/plain') return 'txt';
+    return null;
+  }
+
+  function toBase64(buffer) {
+    var bytes = new Uint8Array(buffer), bin = '';
+    for (var i = 0; i < bytes.length; i += 0x8000) {
+      bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
+    }
+    return btoa(bin);
+  }
+
+  function formatSize(b) { return b > 1048576 ? (b / 1048576).toFixed(1) + ' MB' : Math.max(1, Math.round(b / 1024)) + ' KB'; }
+
+  async function addSources(files) {
+    var skipped = [];
+    for (var i = 0; i < files.length; i++) {
+      var f = files[i], kind = fileKind(f);
+      if (!kind) { skipped.push(f.name + ' (unsupported type)'); continue; }
+      if (f.size > MAX_BYTES) { skipped.push(f.name + ' (over 20 MB)'); continue; }
+      try {
+        var buffer = await readAsArrayBuffer(f);
+        state.sources.push({ name: f.name, size: f.size, kind: kind, mediaType: f.type || (kind === 'image' ? 'image/png' : ''), buffer: buffer });
+      } catch (e) { skipped.push(f.name + ' (read error)'); }
+    }
+    resetResult();
+    render(skipped.length ? 'Skipped: ' + skipped.join(', ') : null);
+  }
+
+  async function setTemplate(files) {
+    var f = files[0];
+    if (!f) return;
+    if (fileKind(f) !== 'pdf') { render('The template must be a PDF.'); return; }
+    if (f.size > MAX_BYTES) { render('The template is over 20 MB.'); return; }
+    try {
+      var buffer = await readAsArrayBuffer(f);
+      await ready();
+      var doc = await window.PDFLib.PDFDocument.load(buffer.slice(0), { ignoreEncryption: true });
+      var fields = doc.getForm().getFields().map(function (fld) {
+        var t = fld.constructor.name;
+        return { name: fld.getName(), label: fld.getName(), type: t === 'PDFCheckBox' ? 'checkbox' : 'text', supported: /^PDF(TextField|CheckBox|Dropdown|RadioGroup)$/.test(t) };
+      }).filter(function (x) { return x.supported; });
+      state.template = { name: f.name, size: f.size, buffer: buffer, pages: doc.getPageCount() };
+      state.formFields = fields;
+      state.mode = fields.length ? 'fields' : 'coords'; // automatic toggle
+      resetResult();
+      render();
+    } catch (e) { render('Could not read that PDF: ' + e.message); }
+  }
+
+  var readyPromise = null;
+  function ready() { return readyPromise; }
+
+  /* ------------------------------------------------------------------ */
+  /* 3. Source text extraction (pdf.js)                                 */
+  /* ------------------------------------------------------------------ */
+  async function extractPdfText(buffer) {
+    // pdf.js transfers the buffer to its worker, so pass a copy.
+    var pdf = await window.pdfjsLib.getDocument({ data: new Uint8Array(buffer.slice(0)) }).promise;
+    var pages = [], chars = 0;
+    for (var p = 1; p <= pdf.numPages; p++) {
+      var page = await pdf.getPage(p);
+      var content = await page.getTextContent();
+      var text = '';
+      content.items.forEach(function (it) { text += it.str + (it.hasEOL ? '\n' : ' '); });
+      chars += text.trim().length;
+      pages.push('--- Page ' + p + ' ---\n' + text.trim());
+    }
+    return { text: pages.join('\n\n'), pages: pdf.numPages, chars: chars };
+  }
+
+  async function buildSourceContent() {
+    var out = [];
+    // Pasted text never touches FileReader, pdf.js or the image path. It is a plain string that goes
+    // to the proxy as a native text source, exactly like text extracted from a file.
+    if (state.sourceText.trim()) out.push({ name: 'Pasted text', kind: 'text', text: state.sourceText });
+    for (var i = 0; i < state.sources.length; i++) {
+      var s = state.sources[i];
+      if (s.kind === 'pdf') {
+        var r = await extractPdfText(s.buffer);
+        var scanned = r.chars / Math.max(1, r.pages) < CONFIG.SCANNED_PDF_CHARS_PER_PAGE;
+        // Real text layer: send text (cheap model). Scanned: send the whole PDF so the model can see the pages.
+        out.push(scanned ? { name: s.name, kind: 'pdf', base64: toBase64(s.buffer) } : { name: s.name, kind: 'text', text: r.text });
+      }
+      else if (s.kind === 'txt') out.push({ name: s.name, kind: 'text', text: new TextDecoder('utf-8').decode(s.buffer) });
+      else out.push({ name: s.name, kind: 'image', mediaType: s.mediaType, base64: toBase64(s.buffer) });
+    }
+    return out;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 4. AI layer: live proxy, with an offline fallback                  */
+  /* ------------------------------------------------------------------ */
+  /**
+   * Sends the extracted sources and target schema to YOUR proxy and resolves to { data, meta }.
+   *
+   * Wire contract (POST CONFIG.PROXY_URL, JSON):
+   *   { exact: boolean,
+   *     schema:  { mode, items: [{ name, label, type: 'text' | 'checkbox' }] },
+   *     sources: [ { name, kind: 'text',  text },
+   *                { name, kind: 'image', mediaType: 'image/png' | 'image/jpeg', base64 },
+   *                { name, kind: 'pdf',   base64 } ] }          // 'pdf' = scanned PDF, read visually
+   * Response: { data: { <item.name>: string | boolean }, meta: { model, visual, exact, unverified: [names] } }
+   *
+   * The browser never holds the API key and never picks the model or system prompt: the proxy does,
+   * so visitors cannot raise your costs or loosen the extraction rules. Only the boolean `exact` crosses the wire.
+   * The proxy must send CORS headers allowing the origin that serves this SVG, and the host serving this
+   * SVG must not block fetch() to the proxy (a strict connect-src CSP would).
+   */
+  async function callClaudeAPI(sourceContent, targetSchema, exact) {
+    if (!CONFIG.PROXY_URL) {
+      return { data: await mockExtract(sourceContent, targetSchema), meta: { model: 'offline mock', unverified: [] } };
+    }
+    var controller = new AbortController();
+    var timer = setTimeout(function () { controller.abort(); }, CONFIG.REQUEST_TIMEOUT_MS);
+    try {
+      var res = await fetch(CONFIG.PROXY_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ exact: !!exact, schema: targetSchema, sources: sourceContent }),
+        signal: controller.signal
+      });
+      var body = await res.json().catch(function () { return null; });
+      if (!res.ok) throw new Error((body && body.error) || 'The proxy answered with status ' + res.status + '.');
+      if (!body || !body.data) throw new Error('The proxy response had no data.');
+      return body;
+    } catch (e) {
+      if (e.name === 'AbortError') throw new Error('The extraction request timed out.');
+      if (e instanceof TypeError) throw new Error('Could not reach the proxy. Check PROXY_URL and its CORS settings.');
+      throw e;
+    } finally { clearTimeout(timer); }
+  }
+
+  // Offline stand-in (used only when PROXY_URL is empty): "Label: value" matching on text sources.
+  async function mockExtract(sourceContent, targetSchema) {
+    await new Promise(function (r) { setTimeout(r, 800); });
+    var corpus = sourceContent.filter(function (s) { return s.kind === 'text'; })
+      .map(function (s) { return s.text; }).join('\n\n');
+    function humanize(s) { return s.replace(/([a-z])([A-Z])/g, '$1 $2').replace(/[_\-.]+/g, ' ').replace(/\s+/g, ' ').trim(); }
+    function esc(s) { return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); }
+    function kv(label) {
+      var m = corpus.match(new RegExp(esc(label) + '\\s*[:=\\-]\\s*([^\\n]+)', 'i'));
+      return m ? m[1].trim() : '';
+    }
+    var out = {};
+    targetSchema.items.forEach(function (f) {
+      var label = humanize(f.label || f.name);
+      if (f.type === 'checkbox') out[f.name] = new RegExp(esc(label), 'i').test(corpus);
+      else if (/summary|description|notes|comments|paragraph/i.test(label))
+        out[f.name] = corpus.replace(/--- Page \d+ ---/g, '').replace(/\s+/g, ' ').trim().slice(0, 600);
+      else out[f.name] = kv(label);
+    });
+    return out;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 5. PDF mapping engine                                              */
+  /* ------------------------------------------------------------------ */
+  // Standard fonts use WinAnsi encoding; swap characters they cannot draw so pdf-lib does not throw.
+  function toWinAnsi(s) {
+    return String(s == null ? '' : s)
+      .replace(/[\u2018\u2019]/g, "'").replace(/[\u201C\u201D]/g, '"')
+      .replace(/[\u2013\u2014]/g, '-').replace(/\u2026/g, '...')
+      .replace(/\t/g, '    ').replace(/[^\n\x20-\x7E\xA0-\xFF]/g, '?');
+  }
+
+  /**
+   * Greedy word wrap measured with the real font metrics.
+   *  - each "\n" starts a new paragraph (blank lines are kept)
+   *  - a word wider than maxWidth is hard-split character by character
+   */
+  function wrapText(text, font, fontSize, maxWidth) {
+    var lines = [];
+    function w(s) { return font.widthOfTextAtSize(s, fontSize); }
+    toWinAnsi(text).split('\n').forEach(function (paragraph) {
+      if (paragraph.trim() === '') { lines.push(''); return; }
+      var line = '';
+      paragraph.split(/\s+/).filter(Boolean).forEach(function (word) {
+        var candidate = line ? line + ' ' + word : word;
+        if (w(candidate) <= maxWidth) { line = candidate; return; }
+        if (line) lines.push(line);
+        if (w(word) <= maxWidth) { line = word; return; }
+        var chunk = '';
+        for (var i = 0; i < word.length; i++) {
+          var ch = word.charAt(i);
+          if (w(chunk + ch) > maxWidth && chunk) { lines.push(chunk); chunk = ch; } else chunk += ch;
+        }
+        line = chunk;
+      });
+      lines.push(line);
+    });
+    return lines;
+  }
+
+  // Mechanism 1: AcroForm fields, matched by exact field name.
+  function fillFormFields(pdfDoc, data, font) {
+    var form = pdfDoc.getForm(), report = [];
+    Object.keys(data).forEach(function (name) {
+      try {
+        var field = form.getField(name), kind = field.constructor.name, value = data[name];
+        if (kind === 'PDFCheckBox') { value ? field.check() : field.uncheck(); }
+        else if (kind === 'PDFDropdown' || kind === 'PDFRadioGroup') { if (value) field.select(String(value)); }
+        else if (kind === 'PDFTextField') {
+          var text = toWinAnsi(value), tf = form.getTextField(name);
+          if (text.indexOf('\n') > -1 || text.length > 80) tf.enableMultiline();
+          tf.setText(text);
+        } else return;
+        report.push({ name: name, ok: true });
+      } catch (e) { report.push({ name: name, ok: false, error: e.message }); }
+    });
+    form.updateFieldAppearances(font); // rebuild appearance streams so values show in every viewer
+    return report;
+  }
+
+  // Mechanism 2: static stamping. Inputs use a TOP-LEFT origin; PDF uses BOTTOM-LEFT.
+  // Conversion: yPdf = pageHeight - yTop - fontSize (first baseline), then step down by lineHeight.
+  function stampRegions(pdfDoc, data, regions, font) {
+    var pages = pdfDoc.getPages(), rgb = window.PDFLib.rgb, report = [];
+    regions.forEach(function (r) {
+      var page = pages[r.page - 1];
+      if (!page) { report.push({ name: r.id, ok: false, error: 'Page ' + r.page + ' not found' }); return; }
+      var val = data[r.id] === true ? 'X' : data[r.id]; // checkbox in a box: draw an X
+      if (!val) return;
+      var lineHeight = r.fontSize * 1.25;
+      var lines = wrapText(val, font, r.fontSize, r.width);
+      var maxLines = Math.max(1, Math.floor(r.height / lineHeight));
+      var visible = lines.slice(0, maxLines);
+      if (lines.length > maxLines) visible[maxLines - 1] = visible[maxLines - 1].replace(/.{0,3}$/, '...');
+      var y = page.getHeight() - r.y - r.fontSize;
+      visible.forEach(function (line) {
+        page.drawText(line, { x: r.x, y: y, size: r.fontSize, font: font, color: rgb(0.05, 0.05, 0.1) });
+        y -= lineHeight;
+      });
+      report.push({ name: r.id, ok: true, truncated: lines.length > maxLines });
+    });
+    return report;
+  }
+
+  // Used when there is no template PDF: the pasted schema defines the output.
+  function pageSize() { return (state.schema && state.schema.page) || { width: 612, height: 792 }; }
+
+  function ensurePages(pdfDoc, regions) {
+    if (state.template) return; // a real template already has its pages
+    var n = regions.reduce(function (m, r) { return Math.max(m, r.page); }, 1), size = pageSize();
+    while (pdfDoc.getPageCount() < n) pdfDoc.addPage([size.width, size.height]);
+  }
+
+  // Schema without coordinates and without a template: stack "label / value" blocks on new pages.
+  function layoutItems(pdfDoc, items, data, font, bold, size) {
+    var rgb = window.PDFLib.rgb, M = 54, W = size.width - 2 * M, fs = 11, lh = fs * 1.25;
+    var page = pdfDoc.addPage([size.width, size.height]), top = M, report = [];
+    function room(h) { if (top + h > size.height - M) { page = pdfDoc.addPage([size.width, size.height]); top = M; } }
+    items.forEach(function (it) {
+      var v = it.type === 'checkbox' ? (data[it.name] ? 'Yes' : 'No') : data[it.name];
+      room(lh * 2);
+      page.drawText(toWinAnsi(it.label), { x: M, y: size.height - top - fs, size: fs, font: bold, color: rgb(0.09, 0.13, 0.17) });
+      top += lh + 2;
+      wrapText(v || '', font, fs, W).forEach(function (line) {
+        room(lh);
+        page.drawText(line, { x: M, y: size.height - top - fs, size: fs, font: font, color: rgb(0.05, 0.05, 0.1) });
+        top += lh;
+      });
+      top += 12;
+      report.push({ name: it.name, ok: true });
+    });
+    return report;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 6. Orchestration                                                   */
+  /* ------------------------------------------------------------------ */
+  function resetResult() { state.resultBlob = null; }
+
+  function activeRegions() { return state.schema && state.schema.regions ? state.schema.regions : REGIONS; }
+
+  // 'fields' = AcroForm names, 'coords' = stamped boxes, 'layout' = new PDF built from a pasted schema.
+  function fillMethod() {
+    if (state.schema) return state.schema.regions ? 'coords' : (state.template ? 'fields' : 'layout');
+    return state.mode;
+  }
+
+  function currentSchema() {
+    var m = fillMethod();
+    if (state.schema) return { mode: m, items: state.schema.items };
+    return m === 'fields'
+      ? { mode: 'fields', items: state.formFields.map(function (f) { return { name: f.name, label: f.label, type: f.type }; }) }
+      : { mode: 'coords', items: REGIONS.map(function (r) { return { name: r.id, label: r.label, type: 'text' }; }) };
+  }
+
+  function hasSources() { return state.sources.length > 0 || state.sourceText.trim().length > 0; }
+
+  function canRun() {
+    return state.libsReady && !state.busy && hasSources() && (state.template || state.schema) && currentSchema().items.length > 0;
+  }
+
+  async function process() {
+    if (!canRun()) return;
+    state.busy = true; resetResult(); render('Reading source files...');
+    try {
+      var sources = await buildSourceContent();
+      render('Asking Claude to map the data...');
+      var schema = currentSchema();
+      var result = await callClaudeAPI(sources, schema, state.exact);
+      var data = result.data;
+
+      render('Writing the PDF...');
+      var PDFLib = window.PDFLib;
+      var method = fillMethod();
+      var pdfDoc = state.template
+        ? await PDFLib.PDFDocument.load(state.template.buffer.slice(0), { ignoreEncryption: true })
+        : await PDFLib.PDFDocument.create();
+      var font = await pdfDoc.embedFont(PDFLib.StandardFonts.Helvetica);
+      var report;
+      if (method === 'fields') report = fillFormFields(pdfDoc, data, font);
+      else if (method === 'coords') { ensurePages(pdfDoc, activeRegions()); report = stampRegions(pdfDoc, data, activeRegions(), font); }
+      else report = layoutItems(pdfDoc, schema.items, data, font, await pdfDoc.embedFont(PDFLib.StandardFonts.HelveticaBold), pageSize());
+      var bytes = await pdfDoc.save();
+
+      state.resultBlob = new Blob([bytes], { type: 'application/pdf' });
+      state.resultName = state.template ? state.template.name.replace(/\.pdf$/i, '') + '-filled.pdf' : 'filled-form.pdf';
+      var problems = report.filter(function (r) { return !r.ok || r.truncated; }).length;
+      state.busy = false;
+      renderPreview(data);
+      var meta = result.meta || {};
+      var note = ' Model: ' + (meta.model || 'unknown') + '.';
+      if (state.exact && meta.unverified && meta.unverified.length)
+        note += ' ' + meta.unverified.length + ' value(s) could not be matched word for word in the source text: ' + meta.unverified.slice(0, 3).join(', ') + '.';
+      render('Done. ' + formatSize(bytes.length) + ' ready to download.' + note + (problems ? ' ' + problems + ' item(s) need a look: check field names or box sizes.' : ''));
+    } catch (e) {
+      console.error(e);
+      state.busy = false;
+      render('Something went wrong: ' + (e.message || e));
+    }
+  }
+
+  function download() {
+    if (!state.resultBlob) return;
+    // pdf-lib's save() gives a Uint8Array; it was wrapped in a Blob when processing finished.
+    // Object URL -> programmatic anchor -> click -> clean up. Nothing touches the network.
+    var url = URL.createObjectURL(state.resultBlob);
+    var a = document.createElementNS(XHTML_NS, 'a');
+    a.setAttribute('href', url);
+    a.setAttribute('download', state.resultName);
+    a.setAttribute('rel', 'noopener');
+    a.setAttribute('style', 'display:none');
+    document.documentElement.appendChild(a);   // must be connected for Firefox
+    a.click();
+    document.documentElement.removeChild(a);
+    // Revoke later: revoking immediately can cancel the download in some browsers.
+    setTimeout(function () { URL.revokeObjectURL(url); }, 60000);
+    render('Download started: ' + state.resultName + ' (' + formatSize(state.resultBlob.size) + ').');
+    // If this page is embedded in a sandboxed iframe without "allow-downloads", the browser blocks the save.
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 7. Rendering helpers (SVG text has no wrapping, so truncate)       */
+  /* ------------------------------------------------------------------ */
+  function clip(s, n) { s = String(s); return s.length > n ? s.slice(0, n - 1) + '...' : s; }
+
+  function fillTextLines(groupId, lines, x, y0, step) {
+    var g = $(groupId);
+    while (g.firstChild) g.removeChild(g.firstChild);
+    lines.forEach(function (line, i) {
+      var t = document.createElementNS(SVG_NS, 'text');
+      t.setAttribute('x', x); t.setAttribute('y', y0 + i * step);
+      t.textContent = line; g.appendChild(t);
+    });
+  }
+
+  function renderPreview(data) {
+    var entries = Object.keys(data).map(function (k) { return k + ': ' + clip(String(data[k]).replace(/\s+/g, ' '), 110); });
+    fillTextLines('result-preview', entries.slice(0, 7), 60, 580, 20);
+  }
+
+  function setActive(id, on, disabled) { $(id).setAttribute('class', 'btn toggle' + (on ? ' active' : '') + (disabled ? ' disabled' : '')); }
+
+  function render(message) {
+    var total = state.sources.reduce(function (n, s) { return n + s.size; }, 0) + (state.template ? state.template.size : 0);
+
+    var srcLines = state.sources.slice(0, 2).map(function (s) { return clip(s.name, 44) + '  (' + formatSize(s.size) + ')'; });
+    if (state.sources.length > 2) srcLines.push('+ ' + (state.sources.length - 2) + ' more files');
+    if (state.sourceText.trim()) {
+      srcLines.push('Pasted text  (' + state.sourceText.length.toLocaleString() + ' characters)');
+      srcLines.push('  ' + clip(state.sourceText.replace(/\s+/g, ' ').trim(), 52));
+    }
+    fillTextLines('source-list', srcLines, 64, 226, 18);
+    $('btn-source-text').querySelector('text').textContent = state.sourceText ? 'Edit pasted text' : 'Paste text instead';
+
+    var tInfo = [];
+    if (state.template) {
+      tInfo.push(clip(state.template.name, 44) + '  (' + formatSize(state.template.size) + ', ' + state.template.pages + ' pages)');
+      tInfo.push(state.formFields.length ? state.formFields.length + ' fillable fields found' : 'No interactive fields found');
+      if (!state.schema && state.formFields.length) tInfo.push('  ' + clip(state.formFields[0].name, 44) + (state.formFields.length > 1 ? ', ...' : ''));
+    }
+    if (state.schema) {
+      var how = state.schema.regions ? 'pixel coordinates' : (state.template ? 'form field names' : 'new PDF, auto layout');
+      tInfo.push('Pasted schema  (' + state.schema.items.length + ' fields, ' + how + ')');
+      tInfo.push('  ' + clip(state.schema.items.map(function (i) { return i.name; }).join(', '), 52));
+    }
+    fillTextLines('template-info', tInfo, 544, 226, 18);
+    $('btn-template-text').querySelector('text').textContent = state.schema ? 'Edit pasted schema' : 'Paste schema instead';
+
+    var locked = !!state.schema; // a pasted schema decides the fill method
+    setActive('btn-mode-fields', fillMethod() === 'fields', locked);
+    setActive('btn-mode-coords', fillMethod() === 'coords', locked);
+
+    var run = $('btn-process');
+    run.setAttribute('class', 'btn' + (canRun() ? '' : ' disabled'));
+    run.setAttribute('aria-disabled', canRun() ? 'false' : 'true');
+    run.querySelector('text').textContent = state.busy ? 'Processing...' : 'Extract and fill PDF';
+    $('btn-download').setAttribute('visibility', state.resultBlob ? 'visible' : 'hidden');
+    var ex = $('btn-exact');
+    ex.setAttribute('class', 'btn toggle' + (state.exact ? ' active' : ''));
+    ex.setAttribute('aria-checked', state.exact ? 'true' : 'false');
+    ex.querySelector('text').textContent = state.exact ? 'Exact extraction: on (copy text verbatim)' : 'Exact extraction: off (may condense)';
+
+    var mem = performance && performance.memory ? ', heap ' + formatSize(performance.memory.usedJSHeapSize) : '';
+    var base = state.libsReady ? '' : 'Loading PDF libraries... ';
+    var summary = state.sources.length + ' source file(s), ' + formatSize(total) + ' held in memory'
+      + (state.sourceText.trim() ? ', plus ' + state.sourceText.length.toLocaleString() + ' pasted characters' : '') + mem + '.';
+    $('text-status').textContent = message ? base + message : base + summary;
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 7b. Text entry: schema parser and the in-SVG editor                */
+  /* ------------------------------------------------------------------ */
+  /**
+   * Accepts JSON (array, or object with "items" / "fields" / "regions"; optional "page": {width, height}),
+   * or one field per line:   name | label | type | page,x,y,width,height,fontSize
+   * (label, type and coordinates are optional; "#" starts a comment; "@page 612 792" sets the page size).
+   * Returns { items, regions | null, page | null } or throws an Error with a message fit to show the user.
+   */
+  function parseSchemaText(text) {
+    var raw = [], page = null, t = String(text).trim();
+    if (/^[\[{]/.test(t)) {
+      var j;
+      try { j = JSON.parse(t); } catch (e) { throw new Error('That is not valid JSON: ' + e.message); }
+      raw = Array.isArray(j) ? j : (j.items || j.fields || j.regions);
+      if (!Array.isArray(raw)) throw new Error('Use a JSON array, or an object with an "items", "fields" or "regions" array.');
+      if (j.page && j.page.width > 0 && j.page.height > 0) page = { width: Number(j.page.width), height: Number(j.page.height) };
+    } else {
+      t.split(/\r?\n/).forEach(function (line, n) {
+        line = line.trim();
+        if (!line || line.charAt(0) === '#') return;
+        var m = line.match(/^@page\s+(\d+(?:\.\d+)?)\s+(\d+(?:\.\d+)?)$/);
+        if (m) { page = { width: Number(m[1]), height: Number(m[2]) }; return; }
+        var p = line.split('|').map(function (x) { return x.trim(); });
+        var e = { name: p[0], label: p[1] || p[0], type: p[2] || 'text' };
+        if (p[3]) {
+          var c = p[3].split(',').map(Number);
+          if (c.length < 5 || c.some(isNaN)) throw new Error('Line ' + (n + 1) + ': coordinates need page,x,y,width,height and an optional font size.');
+          e.page = c[0]; e.x = c[1]; e.y = c[2]; e.width = c[3]; e.height = c[4];
+          if (c[5]) e.fontSize = c[5];
+        }
+        raw.push(e);
+      });
+    }
+    if (!raw.length) throw new Error('No fields found. Add at least one.');
+    if (raw.length > 200) throw new Error('Too many fields. The limit is 200.');
+
+    var seen = {}, items = [], regions = [];
+    raw.forEach(function (e, i) {
+      if (typeof e === 'string') e = { name: e };
+      var name = String((e && (e.name || e.id || e.label)) || '').trim();
+      if (!name) throw new Error('Item ' + (i + 1) + ' has no name.');
+      if (name.length > 200) throw new Error('Item ' + (i + 1) + ': the name is over 200 characters.');
+      if (seen[name]) throw new Error('"' + name + '" appears twice. Names must be unique.');
+      seen[name] = true;
+      var label = String(e.label || name).slice(0, 200);
+      items.push({ name: name, label: label, type: e.type === 'checkbox' ? 'checkbox' : 'text' });
+      var boxed = ['x', 'y', 'width', 'height'].every(function (k) { return typeof e[k] === 'number' && isFinite(e[k]); });
+      if (boxed) regions.push({ id: name, label: label, page: Math.max(1, Math.floor(Number(e.page) || 1)),
+        x: e.x, y: e.y, width: e.width, height: e.height, fontSize: Number(e.fontSize) > 0 ? Number(e.fontSize) : 11 });
+    });
+    if (regions.length && regions.length !== items.length) throw new Error('Give every field coordinates, or none of them.');
+    return { items: items, regions: regions.length ? regions : null, page: page };
+  }
+
+  function applySourceText(text) {
+    if (text.length > MAX_TEXT_CHARS) return 'That is ' + text.length.toLocaleString() + ' characters. The limit is ' + MAX_TEXT_CHARS.toLocaleString() + '.';
+    state.sourceText = text; resetResult(); render();
+    return null;
+  }
+
+  function applySchemaText(text) {
+    if (!text.trim()) { state.schemaText = ''; state.schema = null; resetResult(); render(); return null; }
+    var parsed;
+    try { parsed = parseSchemaText(text); } catch (e) { return e.message; }
+    state.schemaText = text; state.schema = parsed; resetResult(); render();
+    return null;
+  }
+
+  // The editor is a real <textarea> spawned inside a <foreignObject> when needed, so paste, selection,
+  // caret and IME all work natively. If the viewer cannot render foreignObject, or the user prefers it,
+  // the same value can be edited through window.prompt(), which is single-line in most browsers.
+  var editor = null; // { ta, fo, opts } while open
+
+  function openEditor(opts) {
+    if (editor || state.busy) return;
+    if (typeof window.SVGForeignObjectElement === 'undefined') { promptEdit(opts); return; }
+    var fo = document.createElementNS(SVG_NS, 'foreignObject');
+    fo.setAttribute('x', 120); fo.setAttribute('y', 170); fo.setAttribute('width', 760); fo.setAttribute('height', 424);
+    var ta = document.createElementNS(XHTML_NS, 'textarea');
+    ta.setAttribute('spellcheck', 'false');
+    ta.setAttribute('aria-label', opts.title);
+    ta.setAttribute('style', 'box-sizing:border-box;width:100%;height:100%;resize:none;padding:10px;margin:0;' +
+      'font:13px ui-monospace,Menlo,Consolas,monospace;color:#17212B;background:#F7F9FA;border:2px solid #AEBBC6;border-radius:8px;outline:none;');
+    ta.value = opts.value || '';
+    ta.addEventListener('input', countEditor);
+    ta.addEventListener('focus', function () { ta.style.borderColor = '#0E6F73'; });
+    ta.addEventListener('blur', function () { ta.style.borderColor = '#AEBBC6'; });
+    ta.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape') { e.preventDefault(); closeEditor(); }
+      else if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) { e.preventDefault(); applyEditor(); }
+    });
+    fo.appendChild(ta);
+    $('editor-host').appendChild(fo);
+    editor = { ta: ta, fo: fo, opts: opts };
+    $('editor-title').textContent = opts.title;
+    $('editor-hint').textContent = opts.hint[0];
+    $('editor-hint2').textContent = opts.hint[1] || '';
+    $('editor-error').textContent = '';
+    $('editor').setAttribute('visibility', 'visible');
+    countEditor();
+    ta.focus();
+  }
+
+  function countEditor() { if (editor) $('editor-count').textContent = editor.ta.value.length.toLocaleString() + ' characters'; }
+
+  function applyEditor() {
+    if (!editor) return;
+    var err = editor.opts.onApply(editor.ta.value);
+    if (err) { $('editor-error').textContent = err; return; } // stay open so nothing typed is lost
+    closeEditor();
+  }
+
+  function closeEditor() {
+    if (!editor) return;
+    $('editor-host').removeChild(editor.fo);
+    $('editor').setAttribute('visibility', 'hidden');
+    $('editor-error').textContent = '';
+    editor = null;
+  }
+
+  function promptEdit(opts) {
+    var v = window.prompt(opts.title + ' (a browser prompt may flatten line breaks)', opts.value || '');
+    if (v === null) return;
+    render(opts.onApply(v));
+  }
+
+  function editSourceText() {
+    openEditor({ title: 'Paste source text', value: state.sourceText, onApply: applySourceText,
+      hint: ['Plain text. It skips file decoding and goes to the extractor as a text source, line breaks included.',
+             'Ctrl+Enter applies. Empty text removes it.'] });
+  }
+
+  function editSchemaText() {
+    openEditor({ title: 'Paste a target schema', value: state.schemaText, onApply: applySchemaText,
+      hint: ['JSON, or one field per line:  name | label | type | page,x,y,width,height,fontSize',
+             'Label, type and coordinates are optional. "@page 612 792" sets the page size. Empty text removes the schema.'] });
+  }
+
+  /* ------------------------------------------------------------------ */
+  /* 8. Event hooks                                                     */
+  /* ------------------------------------------------------------------ */
+  function pickFiles(accept, multiple, cb) {
+    // Detached, never displayed: only used to open the OS file dialog.
+    var input = document.createElementNS(XHTML_NS, 'input');
+    input.setAttribute('type', 'file'); input.setAttribute('accept', accept);
+    if (multiple) input.setAttribute('multiple', 'multiple');
+    input.addEventListener('change', function () { cb(Array.prototype.slice.call(input.files)); });
+    input.click();
+  }
+
+  function wireZone(id, accept, multiple, handler) {
+    var zone = $(id);
+    zone.addEventListener('dragover', function (e) { e.preventDefault(); zone.setAttribute('class', 'zone hover'); });
+    zone.addEventListener('dragleave', function () { zone.setAttribute('class', 'zone'); });
+    zone.addEventListener('drop', function (e) {
+      e.preventDefault(); zone.setAttribute('class', 'zone');
+      handler(Array.prototype.slice.call(e.dataTransfer.files));
+    });
+    function open() { pickFiles(accept, multiple, handler); }
+    zone.addEventListener('click', open);
+    zone.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); } });
+  }
+
+  function wireButton(id, fn) {
+    var el = $(id);
+    el.addEventListener('click', fn);
+    el.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); fn(); } });
+  }
+
+  // Stop the browser from navigating to a file dropped outside the zones.
+  // While the editor is open, leave text drops to the textarea but still block file drops (they would navigate away).
+  function guardDrop(e) {
+    var files = e.dataTransfer && Array.prototype.indexOf.call(e.dataTransfer.types || [], 'Files') > -1;
+    if (!editor || files) e.preventDefault();
+  }
+  window.addEventListener('dragover', guardDrop);
+  window.addEventListener('drop', guardDrop);
+
+  wireZone('source-zone', '.pdf,.txt,.png,.jpg,.jpeg', true, addSources);
+  wireZone('template-zone', '.pdf,application/pdf', false, setTemplate);
+  wireButton('btn-process', process);
+  wireButton('btn-download', download);
+  wireButton('btn-exact', function () { if (state.busy) return; state.exact = !state.exact; resetResult(); render(); });
+  var LOCKED = 'A pasted schema decides the fill method. Clear it to switch.';
+  wireButton('btn-mode-fields', function () {
+    if (state.schema) { render(LOCKED); return; }
+    if (state.formFields.length || !state.template) { state.mode = 'fields'; resetResult(); render(); }
+    else render('This PDF has no interactive fields.');
+  });
+  wireButton('btn-mode-coords', function () {
+    if (state.schema) { render(LOCKED); return; }
+    state.mode = 'coords'; resetResult(); render();
+  });
+
+  wireButton('btn-source-text', editSourceText);
+  wireButton('btn-source-clear', function () { state.sources = []; state.sourceText = ''; resetResult(); render(); });
+  wireButton('btn-template-text', editSchemaText);
+  wireButton('btn-template-clear', function () {
+    state.template = null; state.formFields = []; state.schema = null; state.schemaText = ''; state.mode = 'fields';
+    resetResult(); render();
+  });
+  wireButton('btn-editor-apply', applyEditor);
+  wireButton('btn-editor-cancel', closeEditor);
+  wireButton('btn-editor-prompt', function () {
+    if (!editor) return;
+    var o = editor.opts; o.value = editor.ta.value;
+    closeEditor(); promptEdit(o);
+  });
+
+  /* ------------------------------------------------------------------ */
+  /* 9. Boot: interactions stay disabled until both libraries load      */
+  /* ------------------------------------------------------------------ */
+  render();
+  readyPromise = loadLibraries();
+  readyPromise.then(function () { render('Ready. Add your files.'); })
+              .catch(function (e) { render('Could not load PDF libraries: ' + e.message + '. Check your connection or any content security policy on this host.'); });
+})();
+  ]]></script>
+</svg>
