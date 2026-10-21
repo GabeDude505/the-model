@@ -1,14 +1,20 @@
 // server.js: dependency-free Node 18+ proxy that keeps ANTHROPIC_API_KEY off the client.
 //
-//   ANTHROPIC_API_KEY=sk-ant-... ALLOWED_ORIGINS=https://you.github.io node server.js
+//   ANTHROPIC_API_KEY=... ALLOWED_ORIGINS=https://you.github.io node server.js
 //
-// Then set CONFIG.PROXY_URL in index.svg to  https://your-host/api/extract
-// Serve it over HTTPS in production (put it behind Caddy, nginx, Fly, Render, etc.).
+// Then set PROXY_URL at the top of index.svg to  https://your-host/api/extract
+// Serve it over HTTPS in production (Caddy, nginx, Fly, Render, ...).
+//
+// The default engine answers with application/x-ndjson, one JSON event per line:
+//   {"type":"plan",...}  {"type":"stage","id":"visual","state":"start","label":"..."}  {"type":"stage",...,"state":"done"}
+//   ... then {"type":"result","data":{...},"artifacts":{...},"meta":{...}}  or  {"type":"error","status":502,"error":"..."}
+// Validation failures and ENGINE=single answer with plain JSON and a normal status code.
 import http from "node:http";
-import { runExtraction, corsHeaders, HttpError } from "./extract-core.js";
+import { corsHeaders, HttpError } from "./extract-core.js";
+import { startJob, describeError } from "./engine.js";
 
 const PORT = Number(process.env.PORT) || 8787;
-const MAX_BODY = 30 * 1024 * 1024;       // matches the API's ~32 MB request ceiling, minus overhead
+const MAX_BODY = (Number(process.env.MAX_BODY_MB) || 32) * 1024 * 1024; // the API itself caps requests at about 32 MB
 const RATE_LIMIT = Number(process.env.RATE_LIMIT_PER_MIN) || 10;
 
 // Minimal per-IP rate limit (in memory). Swap for Redis or your platform's limiter if you scale out.
@@ -48,7 +54,7 @@ http.createServer(async (req, res) => {
 
   try {
     if (req.method === "OPTIONS") { res.writeHead(204, cors); return res.end(); }
-    if (req.method === "GET" && req.url === "/health") return send(200, { ok: true });
+    if (req.method === "GET" && req.url === "/health") return send(200, { ok: true, engine: process.env.ENGINE || "aggregator" });
     if (req.method !== "POST" || req.url !== "/api/extract") return send(404, { error: "Not found." });
 
     // Behind a reverse proxy, trust x-forwarded-for only if you control that proxy.
@@ -56,10 +62,22 @@ http.createServer(async (req, res) => {
     if (limited(ip)) return send(429, { error: "Too many requests. Wait a minute and try again." });
 
     const payload = await readJson(req);
-    send(200, await runExtraction(payload, process.env.ANTHROPIC_API_KEY));
+    const job = startJob(payload); // validates; throws an HttpError before any bytes are streamed
+
+    if (!job.streaming) return send(200, await job.run());
+
+    res.writeHead(200, {
+      "Content-Type": "application/x-ndjson; charset=utf-8",
+      "Cache-Control": "no-store",
+      "X-Accel-Buffering": "no", // stop nginx from buffering the stream
+      ...cors,
+    });
+    const emit = (evt) => { if (!res.writableEnded) res.write(JSON.stringify(evt) + "\n"); };
+    try { emit({ type: "result", ...(await job.run(emit)) }); }
+    catch (e) { emit({ type: "error", ...describeError(e) }); }
+    res.end();
   } catch (e) {
-    if (e instanceof HttpError) return send(e.status, { error: e.message });
-    console.error(e);
-    send(500, { error: "Unexpected server error." });
+    const d = describeError(e);
+    send(d.status, { error: d.error });
   }
-}).listen(PORT, () => console.log(`Extraction proxy listening on :${PORT}`));
+}).listen(PORT, () => console.log(`Extraction proxy (${process.env.ENGINE || "aggregator"} engine) listening on :${PORT}`));
